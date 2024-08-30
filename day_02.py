@@ -40,6 +40,20 @@ print(type(last_year))
 
 print('First name lenght:',len(FIRST_NAME))
 print('Last name lenght:',len(LAST_NAME))
-NUM_ONE = len(FIRST_NAME)
-NUM_TWO = len(LAST_NAME)
-print('The greatest number is:',max(NUM_ONE,NUM_TWO))
+FIRST_ONE = len(FIRST_NAME)
+SECOND_ONE = len(LAST_NAME)
+print('The greatest lenght is:',max(FIRST_ONE,SECOND_ONE))
+
+NUM_ONE = 5
+NUM_TWO = 4
+
+TOTAL = NUM_ONE + NUM_TWO
+print (TOTAL)
+DIFF = NUM_TWO - NUM_ONE
+print(DIFF)
+PRODUCT = NUM_TWO * NUM_ONE
+print (PRODUCT)
+DIVISION = NUM_ONE / NUM_TWO
+print(DIVISION)
+REMINDER = NUM_ONE % NUM_TWO
+print (REMINDER)
